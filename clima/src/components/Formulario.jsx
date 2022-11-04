@@ -39,7 +39,12 @@ const Formulario = () => {
 
           <div className="campo">
             <label htmlFor="pais">pais: </label>
-            <select id="pais" name="pais" onChange={datosBusqueda} value={pais}>
+            <select 
+            id="pais"
+             name="pais"
+             onChange={datosBusqueda}
+             value={pais}
+            >
               <option value=""> Seleccione un país </option>
               <option value="US">Estados Unidos</option>
               <option value="MX">México</option>
